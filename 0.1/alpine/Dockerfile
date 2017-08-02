@@ -7,4 +7,6 @@ RUN \
     apk --purge -v del py-pip && \
     rm /var/cache/apk/*
 
+RUN apk add --no-cache git tar gzip ca-certificates
+
 CMD [node]

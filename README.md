@@ -1,6 +1,6 @@
 > Generic docker images useful for CI and other purposes
 
-Based on official distros, preloaded with the tooling needed for BBH workflows.
+Based on official distros, preloaded with the tooling needed for BBH workflows. All include the tools required for use in CircleCI v2.
 
 Listed on the Docker Hub at [bartleboglehegarty/docker](https://hub.docker.com/r/bartleboglehegarty/docker/)
 
