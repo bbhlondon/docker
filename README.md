@@ -10,4 +10,4 @@ Distros available:
 
 | Tag | Base Distro | Base Distro Version | Base Distro link | Additions |
 | --- | --- | --- | --- | --- |
-| 0.1-alpine | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` |
+| node-8.2.1-alpine | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` |
