@@ -1,6 +1,10 @@
 FROM node:8.2.1-alpine
 
-RUN apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get autoremove -y; apt-get autoclean -y
-RUN apt-get install -y awscli
+RUN \
+    mkdir -p /aws && \
+    apk -Uuv add groff less python py-pip && \
+    pip install awscli && \
+    apk --purge -v del py-pip && \
+    rm /var/cache/apk/*
 
 CMD [node]
