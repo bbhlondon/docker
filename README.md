@@ -2,7 +2,7 @@
 
 Based on official Node/Apine distros, and preloaded with the tooling needed for BBH workflows. All include the tools required for use in CircleCI v2.
 
-The `latest` tag will be the more recent NodeJS distro with the `bare` configuration of tools as listed below -- essentially just alpine wth the packages required by CircleCI.
+The `latest` tag will be the most recent NodeJS distro with the `bare` configuration of tools as listed below -- essentially just alpine wth the packages required by CircleCI.
 
 Listed on the Docker Hub at [bartleboglehegarty/docker](https://hub.docker.com/r/bartleboglehegarty/docker/)
 
