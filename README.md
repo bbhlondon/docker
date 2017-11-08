@@ -10,13 +10,13 @@ Distros available:
 
 | Tag | Base Distro | Base Distro Version | Base Distro link | Additions |
 | --- | --- | --- | --- | --- |
+| 9.0.0-bare | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` |
+| 9.0.0-all | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `awscli` `gcloud` `firebase` |
+| 9.0.0-aws | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `awscli` |
+| 9.0.0-firebase | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `firebase` |
+| 9.0.0-gcloud | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `gcloud` |
 | 8.2.1-bare | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` |
 | 8.2.1-all | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` `gcloud` `firebase` |
 | 8.2.1-aws | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` |
 | 8.2.1-firebase | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `firebase` |
 | 8.2.1-gcloud | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `gcloud` |
-| 9.0.0-bare | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` |
-| 9.0.0-all | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` `gcloud` `firebase` |
-| 9.0.0-aws | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` |
-| 9.0.0-firebase | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `firebase` |
-| 9.0.0-gcloud | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `gcloud` |

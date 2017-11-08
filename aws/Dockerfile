@@ -1,4 +1,4 @@
-FROM node:9.0.0-alpine
+FROM bartleboglehegarty/docker:9.0.0-bare
 
 # Add AWS CLI
 RUN \
@@ -7,8 +7,5 @@ RUN \
     pip install awscli && \
     apk --purge -v del py-pip && \
     rm /var/cache/apk/*
-
-# Packages for CircleCi compatibility
-RUN apk add --no-cache git tar gzip ca-certificates
 
 VOLUME ["/root/.config"]
