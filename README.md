@@ -8,15 +8,15 @@ Listed on the Docker Hub at [bartleboglehegarty/docker](https://hub.docker.com/r
 
 Distros available:
 
-| Tag | Base Distro | Base Distro Version | Base Distro link | Additions |
-| --- | --- | --- | --- | --- |
-| 9.0.0-bare | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` |
-| 9.0.0-all | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `awscli` `gcloud` `firebase` |
-| 9.0.0-aws | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `awscli` |
-| 9.0.0-firebase | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `firebase` |
-| 9.0.0-gcloud | NodeJS | 9.0.0 | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` `gcloud` |
-| 8.2.1-bare | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` |
-| 8.2.1-all | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` `gcloud` `firebase` |
-| 8.2.1-aws | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `awscli` |
-| 8.2.1-firebase | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `firebase` |
-| 8.2.1-gcloud | NodeJS | 8.2.1 | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `git` `tar` `gzip` `ca-certificates` `gcloud` |
+| Tag | Base Distro | Additions |
+| --- | --- | --- |
+| 9.0.0-bare | [node:9.0.0-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` |
+| 9.0.0-all | [bartleboglehegarty:9.0.0-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `awscli` `gcloud` `firebase` |
+| 9.0.0-aws | [bartleboglehegarty:9.0.0-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `awscli` |
+| 9.0.0-firebase | [bartleboglehegarty:9.0.0-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `firebase` |
+| 9.0.0-gcloud | [bartleboglehegarty:9.0.0-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `gcloud` |
+| 8.2.1-bare | [node:8.2.1-alpine](https://hub.docker.com/_/node/) | `bash` `git` `tar` `gzip` `ca-certificates` |
+| 8.2.1-all | [bartleboglehegarty:8.2.1-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `awscli` `gcloud` `firebase` |
+| 8.2.1-aws | [bartleboglehegarty:8.2.1-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `awscli` |
+| 8.2.1-firebase | [bartleboglehegarty:8.2.1-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `firebase` |
+| 8.2.1-gcloud | [bartleboglehegarty:8.2.1-bare](https://hub.docker.com/r/bartleboglehegarty/docker/) | `gcloud` |
