@@ -34,4 +34,3 @@ RUN yarn global add firebase-tools
 RUN apk add --no-cache git tar gzip ca-certificates
 
 VOLUME ["/root/.config"]
-# CMD [/bin/sh]
