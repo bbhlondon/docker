@@ -1,4 +1,4 @@
-FROM node:8.2.1-alpine
+FROM bartleboglehegarty/docker:8.2.1-bare
 
 # Add GCloud SDK
 ENV CLOUD_SDK_VERSION 177.0.0
@@ -18,8 +18,5 @@ RUN apk --no-cache add \
     gcloud config set core/disable_usage_reporting true && \
     gcloud config set component_manager/disable_update_check true && \
     gcloud config set metrics/environment github_docker_image
-
-# Packages for CircleCi compatibility
-RUN apk add --no-cache git tar gzip ca-certificates
 
 VOLUME ["/root/.config"]

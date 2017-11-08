@@ -1,4 +1,4 @@
-FROM node:8.2.1-alpine
+FROM bartleboglehegarty/docker:8.2.1-bare
 
 # Add AWS CLI
 RUN \
@@ -29,8 +29,5 @@ RUN apk --no-cache add \
 
 # Firebase tools
 RUN yarn global add firebase-tools
-
-# Packages for CircleCi compatibility
-RUN apk add --no-cache git tar gzip ca-certificates
 
 VOLUME ["/root/.config"]
