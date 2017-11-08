@@ -1,4 +1,4 @@
-FROM node:9.0.0-alpine
+FROM node:8.2.1-alpine
 
 # Add AWS CLI
 RUN \
